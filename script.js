@@ -4,7 +4,7 @@ let lista = [];
 let listaSemRepeticao
 
 
-//1° parte: Pegar um número entre 6 e 9
+//Pega um número entre 6 e 9
 let numberVerificar = prompt("Digite un número de 6 a 9");
     if(numberVerificar === ""){
         console.log("digite algo");
@@ -15,7 +15,7 @@ let numberVerificar = prompt("Digite un número de 6 a 9");
     } 
     else {
         let number;
-        number = Number(numberVerificar);1
+        number = Number(numberVerificar);
         pegaNumero(number);
     }
 
